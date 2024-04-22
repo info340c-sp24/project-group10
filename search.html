@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="stylesheet/Spotifeel.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>SpotiFeel Search</title>
+  </head>
+  <body>
+    <header>
+      <div class="headerCon">
+        <img src="img/logo.png" alt="Logo for Spotifeel" />
+        <h1>SpotiFeel</h1>
+      </div>
+    </header>
+    <main>
+      <div class="mainContainer">
+        <!-- dashboard -->
+        <div class="dash">
+          <ul>
+            <a href="index.html">
+              <li class="home" aria-label="Home page">
+                <span class="material-symbols-outlined"> home </span>
+                <span class="dashText">HOME</span>
+              </li>
+            </a>
+
+            <a href="search.html">
+              <li class="search" aria-label="Search Page">
+                <span class="material-symbols-outlined"> search </span>
+                <span class="dashText">SEARCH</span>
+              </li>
+            </a>
+
+            <a href="profile.html">
+              <li class="profile" aria-label="User profile">
+                <span class="material-symbols-outlined"> person </span>
+                <span class="dashText">PROFILE</span>
+              </li>
+            </a>
+
+            <li class="more" aria-label="More Info">
+              <span class="material-symbols-outlined"> more_horiz </span>
+              <span class="dashText">MORE</span>
+            </li>
+          </ul>
+        </div>
+        <!-- profile -->
+
+        <div class="searchContainer">
+          <div class="searchHead">
+            <h3>Search</h3>
+            <div class="spacer"></div>
+            <div class="searchButton">
+              <input
+                type="text"
+                class="searchInput"
+                placeholder="Choose Your Emotion"
+              />
+            </div>
+          </div>
+          <div class="searchBody">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="row">Song</th>
+                  <th scope="row">Artist</th>
+                  <th scope="row">Emotion</th>
+                  <th scope="row">Cover</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row">Bandaid</td>
+                  <td>Keshi</td>
+                  <td>Sad</td>
+                  <td>
+                    <img src="img/bandaid.png" alt="Bandaid cover" />
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row">Bandaid</td>
+                  <td>Taylor Swift</td>
+                  <td>Sad</td>
+                  <td>
+                    <img src="img/evermore.webp" alt="Evermore cover" />
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row">Gabriel</td>
+                  <td>Keshi</td>
+                  <td>Slow, Sad</td>
+                  <td>
+                    <img src="img/gabriel.jpg" alt="Gabriel cover" />
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row">Haru Dorobo</td>
+                  <td>Yorushika</td>
+                  <td>Lively, Sad</td>
+                  <td>
+                    <img src="img/haru.jpg" alt="Harudorobo cover" />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; INFO340</p>
+      <p class="contact">
+        <a href="mailto:rohans24@uw.edu">rohans24@uw.edu</a>
+        <a href="mailto:bingsen@uw.edu">bingsen@uw.edu</a>
+        <a href="mailto:amanch@uw.edu">amanch@uw.edu</a>
+      </p>
+    </footer>
+  </body>
+</html>

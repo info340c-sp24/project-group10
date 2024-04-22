@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1 shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="stylesheet/Spotifeel.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>SpotiFeel</title>
+  </head>
+  <body>
+    <header>
+      <div class="headerCon">
+        <img src="img/logo.png" alt="Logo for Spotifeel" />
+        <h1>SpotiFeel</h1>
+      </div>
+    </header>
+    <main>
+      <div class="mainContainer">
+        <!-- dashboard -->
+        <div class="dash">
+          <ul>
+            <a href="index.html">
+              <li class="home" aria-label="Home page">
+                <span class="material-symbols-outlined"> home </span>
+                <span class="dashText">HOME</span>
+              </li>
+            </a>
+
+            <a href="search.html">
+              <li class="search" aria-label="Search Page">
+                <span class="material-symbols-outlined"> search </span>
+                <span class="dashText">SEARCH</span>
+              </li>
+            </a>
+
+            <a href="profile.html">
+              <li class="profile" aria-label="User profile">
+                <span class="material-symbols-outlined"> person </span>
+                <span class="dashText">PROFILE</span>
+              </li>
+            </a>
+
+            <li class="more" aria-label="More Info">
+              <span class="material-symbols-outlined"> more_horiz </span>
+              <span class="dashText">MORE</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Profile -->
+        <div class="userProfile">
+          <h2>Profile</h2>
+
+          <div class="login">
+            <form action="/submit" method="post">
+              <label for="username">User ID:</label>
+              <input type="text" id="name" name="name" /><br /><br />
+              <label for="password">Password:</label>
+              <input type="email" id="email" name="email" /><br /><br />
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; INFO340</p>
+      <p class="contact">
+        <a href="mailto:rohans24@uw.edu">rohans24@uw.edu</a>
+        <a href="mailto:bingsen@uw.edu">bingsen@uw.edu</a>
+        <a href="mailto:amanch@uw.edu">amanch@uw.edu</a>
+      </p>
+    </footer>
+  </body>
+</html>
