@@ -342,4 +342,132 @@ footer {
   footer .contact {
     display: block;
   }
+
+  /* Sorting Dropdown Styling */
+.sortSelection {
+  margin: 10px 20px;
+  color: white;
+  font-family: "Abel", sans-serif;
+}
+
+.sortDropdown {
+  padding: 8px 16px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  font-family: "Abel", sans-serif;
+  color: black;
+}
+
+/* Song Search Styling */
+.songSearch {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#songSearchInput {
+  width: 60%;
+  padding: 8px 12px;
+  margin-right: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+}
+
+.recommendation-section {
+  background-color: #0d0d0d; 
+  color: #ffffff; 
+  font-family: 'Nunito Sans', sans-serif; 
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.recommendation-title {
+  color: #1DB954; 
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.recommendation-description {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.song-input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1em;
+}
+
+.song-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #333;
+  background-color: #121212;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.recommend-button {
+  background-color: #1DB954; 
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.recommend-button:hover {
+  background-color: #169443;
+}
+
+.recommendation-results {
+  background-color: #121212; /* Dark background for results */
+  padding: 15px;
+  border-left: 4px solid #1DB954; /* Green accent line */
+  border-radius: 8px;
+}
+
+.emotion-detected {
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.emotion {
+  font-weight: bold;
+}
+
+.recommended-songs h4 {
+  color: #1DB954; 
+  margin-bottom: 0.5em;
+}
+
+.recommended-songs ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.recommended-songs ul li {
+  padding: 5px 0;
 }
