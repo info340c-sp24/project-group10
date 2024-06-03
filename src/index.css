@@ -132,14 +132,13 @@ h2 {
 .recommend {
     width: 100vw;
     height: 50vh;
-
-    padding-left: 25px;
+    padding-left: 5px;
     display: flex;
     font-family: 'Abel', sans-serif;
 }
 
 .recommendation-section {
-    width: 60vw;
+    width: 90%;
     height: 50vh;
     background-color: #0d0d0d;
     color: #ffffff;
@@ -271,6 +270,11 @@ h2 {
 .section-header h3 {
     text-align: left;
 }
+
+#sortSelect {
+    width: 50%;
+}
+
 .sortSelection {
     margin-right: 20px;
     color: white;
@@ -281,7 +285,6 @@ h2 {
 .sortSelection label {
     margin-right: 10px;
     font-size: 15px;
-
 }
 
 .sortDropdown {
@@ -466,7 +469,7 @@ footer {
 
     .dash li {
         padding: 30px;
-        padding-left: 30px;
+        padding-left: 25px;
         color: white;
         list-style-type: none;
         display: flex;
@@ -484,6 +487,12 @@ footer {
 
     .mainContainer {
         display: flex;
+    }
+
+
+    /* Recommand section layout */
+    .recommend{
+        padding-left: 15px;
     }
 
     /* Profile page change margin */

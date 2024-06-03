@@ -35,7 +35,7 @@ const Dashboard = ({ navigate }) => (
 const Search = ({ navigate }) => {
     const [songs, setSongs] = useState([
         {
-            song: 'Bandaid',
+            song: 'Bandaids',
             artist: 'Keshi',
             emotion: 'Sad',
             popularity: 'The Goat',
